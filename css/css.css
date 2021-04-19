@@ -1,0 +1,77 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #BFAF9B;
+}
+header{
+  background-color: #BFAF9B;
+}
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #BFAF9B;
+}
+p {
+  background-color: #BFAF9B;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+nav {
+  background-color: #BFAF9B;
+}
+.bottom-left {
+  background-color: #eeeeee00;
+  color: #ffffff;
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+}
+#headertest {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 1500px;
+}
+.image-container1 {
+    width: 100%;
+    height: 0;
+    padding-top: 60%;
+    padding-bottom: 0px;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-image: url('images/geology1_partone/footage/geology1_partone_0015.jpeg');
+}
+.image-container2 {
+    width: 100%;
+    height: 0;
+    padding-top: 60%;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-image: url('images/timelapse/whole/whole_84.png');
+}
+.video {
+  position:relative;
+  background-color: #BFAF9B;
+}
+</style>
